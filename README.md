@@ -10,8 +10,9 @@ Autonomous Mars Base Architecture - Multi-Agent AI Design Study
 ---
 
 ## Quick Links
-- White Paper (v1.0): `whitepaper/Project_Vanguard_v1.0.md`
-- Certification Matrix: `appendix/Certification_Matrix_v1.0.md`
+- **White Paper (v2.1, Audited):** `whitepaper/PROJECT_MYRMEX_MASTER_DOC_v2.1_EN.md`
+- **Assumption Register (v2.1):** `appendix/ASSUMPTION_REGISTER_v2.1_EN.md`
+- **Certification Matrix (v2.1):** `appendix/CERTIFICATION_MATRIX_v2.1_EN.md`
 
 ## Scope & Claims
 Project Vanguard is a systems engineering architecture with certification logic (Claim → Requirement → Test → Evidence → Gate).  
