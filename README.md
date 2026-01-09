@@ -1,11 +1,22 @@
-# project-vanguard
+
 Autonomous Mars Base Architecture - Multi-Agent AI Design Study
 
 # 🚀 PROJECT VANGUARD
 **Autonomous Mars Base Architecture — Zero-Risk Human Presence**
 
-> A multi-agent AI design study exploring critical infrastructure under extreme constraints.
-> Developed through adversarial collaboration between ChatGPT and Gemini.
+> A multi-agent systems design study exploring critical infrastructure under extreme constraints.  
+> Developed using a multi-model red-team/blue-team review loop (ChatGPT ↔ Gemini) with human-in-the-loop validation.
+
+---
+
+## Quick Links
+- White Paper (v1.0): `whitepaper/Project_Vanguard_v1.0.md`
+- Certification Matrix: `appendix/Certification_Matrix_v1.0.md`
+
+## Scope & Claims
+Project Vanguard is a systems engineering architecture with certification logic (Claim → Requirement → Test → Evidence → Gate).  
+It combines standardizable engineering components (redundancy, DC microgrid, fault isolation, habitat segmentation, safety-critical OS policy)  
+with a hypothesis-driven energy assumption (DS-Core reservoir coupling) handled via falsifiable experiments and Go/No-Go envelopes.
 
 ---
 
