@@ -1,0 +1,64 @@
+[
+  {
+    "id": "dependency-scheduler",
+    "publication": "Minimized stage metadata only; raw outputs and code are withheld.",
+    "stages": [
+      {
+        "key": "builder",
+        "title": "Builder / BLUE",
+        "status": "complete",
+        "durationMs": 80803
+      },
+      {
+        "key": "critic",
+        "title": "Kritikus / RED",
+        "status": "complete",
+        "durationMs": 142177
+      },
+      {
+        "key": "auditor",
+        "title": "Auditor",
+        "status": "complete",
+        "durationMs": 34562
+      },
+      {
+        "key": "final",
+        "title": "Végleges összegző",
+        "status": "complete",
+        "durationMs": 214482
+      }
+    ],
+    "qualityGateCallCount": 3
+  },
+  {
+    "id": "idempotent-ledger",
+    "publication": "Minimized stage metadata only; raw outputs and code are withheld.",
+    "stages": [
+      {
+        "key": "builder",
+        "title": "Builder / BLUE",
+        "status": "complete",
+        "durationMs": 28828
+      },
+      {
+        "key": "critic",
+        "title": "Kritikus / RED",
+        "status": "complete",
+        "durationMs": 97801
+      },
+      {
+        "key": "auditor",
+        "title": "Auditor",
+        "status": "complete",
+        "durationMs": 42684
+      },
+      {
+        "key": "final",
+        "title": "Végleges összegző",
+        "status": "complete",
+        "durationMs": 33953
+      }
+    ],
+    "qualityGateCallCount": 3
+  }
+]

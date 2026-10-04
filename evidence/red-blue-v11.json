@@ -1,0 +1,228 @@
+{
+  "format": "public-code-evidence-v2-summary",
+  "id": "evidence-v11-2026-10-04-network",
+  "model": "claude-sonnet-5",
+  "configVersion": "api-v11-executable-evidence",
+  "sourceLedgerSha256": "fd6632af75361b17f959afd3be91c2bab5744b75945d132189e17aadaa5ea489",
+  "publication": "Allowlisted public extraction; not the original complete ledger.",
+  "startedAt": "2026-10-04T12:10:47.632Z",
+  "finishedAt": "2026-10-04T12:25:34.419Z",
+  "status": "Lezarult",
+  "registeredProtocol": {
+    "attemptsPerTask": 1,
+    "noPositiveStopping": true,
+    "primary": "heldout functional pass rate; equal task weight",
+    "freeze": "All arms locked before any held-out grading",
+    "feedback": "public tests only; equal availability to Single control and pipeline",
+    "budgetControl": "Single baseline included in full-team measured cost ceiling. At most 8 targeted self-reviews; one review even if baseline public tests pass. Stop on all public tests passing, cap, or max calls. No hidden feedback. Conservative upper reserve may leave unused budget.",
+    "stopping": "Stop entire campaign on uncertain usage, transport error or provider error. No retries. Cap blocks calls before dispatch.",
+    "claims": "Exploratory pilot of two tasks; no statistical or universal superiority claim; known faulty fixtures only verify the grader."
+  },
+  "actualPaidCalls": 17,
+  "estimatedCampaignUsd": 0.9109840000000002,
+  "independentTasks": 2,
+  "withheld": [
+    "task specifications",
+    "raw generated answers and code",
+    "raw pipeline outputs",
+    "held-out test vectors",
+    "reference solutions",
+    "scoring implementation",
+    "per-case held-out feedback"
+  ],
+  "independentVerification": "Summary consistency only. Answer fingerprints identify private archived files; this package cannot verify their contents or reproduce held-out grades.",
+  "results": [
+    {
+      "id": "dependency-scheduler",
+      "title": "Fuggoseges parhuzamos utemezo",
+      "frozenAt": "2026-10-04T12:21:07.752Z",
+      "answers": {
+        "single": {
+          "sha256": "e1fc064d34b2fc6aef93c7dd0d73f7d886bb30e2536adc94d47d9871f72b8b23"
+        },
+        "builder": {
+          "sha256": "7d3a5d75bc650b1914ebd0ae4372fceb12b00e84d64061c20dee1dc617766fa0"
+        },
+        "team": {
+          "sha256": "e1fc064d34b2fc6aef93c7dd0d73f7d886bb30e2536adc94d47d9871f72b8b23"
+        },
+        "budgetSingle": {
+          "sha256": "e1fc064d34b2fc6aef93c7dd0d73f7d886bb30e2536adc94d47d9871f72b8b23"
+        },
+        "merge": {
+          "sha256": "e1fc064d34b2fc6aef93c7dd0d73f7d886bb30e2536adc94d47d9871f72b8b23"
+        }
+      },
+      "grades": {
+        "single": {
+          "passed": 48,
+          "total": 49,
+          "score": 9.795918367346939,
+          "criticalFailures": 0,
+          "formatPass": true
+        },
+        "builder": {
+          "passed": 48,
+          "total": 49,
+          "score": 9.795918367346939,
+          "criticalFailures": 0,
+          "formatPass": true
+        },
+        "team": {
+          "passed": 48,
+          "total": 49,
+          "score": 9.795918367346939,
+          "criticalFailures": 0,
+          "formatPass": true
+        },
+        "budgetSingle": {
+          "passed": 48,
+          "total": 49,
+          "score": 9.795918367346939,
+          "criticalFailures": 0,
+          "formatPass": true
+        },
+        "merge": {
+          "passed": 48,
+          "total": 49,
+          "score": 9.795918367346939,
+          "criticalFailures": 0,
+          "formatPass": true
+        }
+      },
+      "resources": {
+        "single": {
+          "calls": 1,
+          "seconds": 58.9900809,
+          "tokens": 8968,
+          "estimatedUsd": 0.07356
+        },
+        "builder": {
+          "calls": 1,
+          "seconds": 80.7923505,
+          "tokens": 11065,
+          "estimatedUsd": 0.09417
+        },
+        "team": {
+          "calls": 7,
+          "seconds": 530.9633711,
+          "tokens": 75571,
+          "estimatedUsd": 0.48471000000000003
+        },
+        "budgetSingle": {
+          "calls": 2,
+          "seconds": 107.86133599999995,
+          "tokens": 18329,
+          "estimatedUsd": 0.131906
+        },
+        "merge": {
+          "calls": 3,
+          "seconds": 179.51891800000007,
+          "tokens": 30171,
+          "estimatedUsd": 0.21673399999999998
+        }
+      },
+      "budgetControl": {
+        "cap": 0.48471000000000003,
+        "status": "Nyilvanos ellenorzes sikeres"
+      },
+      "enhancedSelfReviewCalls": 1
+    },
+    {
+      "id": "idempotent-ledger",
+      "title": "Atomi, idempotens tranzakcio-feldolgozo",
+      "frozenAt": "2026-10-04T12:25:33.936Z",
+      "answers": {
+        "single": {
+          "sha256": "743063729c6b64f5ee1ff14c91667dd5aa9d0cd9bfb157410d4eb9d17bbdfe69"
+        },
+        "builder": {
+          "sha256": "3ddc1784b6f61f991ca137c17eddb59c4e093a64f9acbea729b2489e5d181b59"
+        },
+        "team": {
+          "sha256": "743063729c6b64f5ee1ff14c91667dd5aa9d0cd9bfb157410d4eb9d17bbdfe69"
+        },
+        "budgetSingle": {
+          "sha256": "743063729c6b64f5ee1ff14c91667dd5aa9d0cd9bfb157410d4eb9d17bbdfe69"
+        },
+        "merge": {
+          "sha256": "59ee98d1401c96b329712af6a9a33db72cf02246618a0618c0d7fe940c989f40"
+        }
+      },
+      "grades": {
+        "single": {
+          "passed": 49,
+          "total": 49,
+          "score": 10,
+          "criticalFailures": 0,
+          "formatPass": true
+        },
+        "builder": {
+          "passed": 49,
+          "total": 49,
+          "score": 10,
+          "criticalFailures": 0,
+          "formatPass": true
+        },
+        "team": {
+          "passed": 49,
+          "total": 49,
+          "score": 10,
+          "criticalFailures": 0,
+          "formatPass": true
+        },
+        "budgetSingle": {
+          "passed": 49,
+          "total": 49,
+          "score": 10,
+          "criticalFailures": 0,
+          "formatPass": true
+        },
+        "merge": {
+          "passed": 49,
+          "total": 49,
+          "score": 10,
+          "criticalFailures": 0,
+          "formatPass": true
+        }
+      },
+      "resources": {
+        "single": {
+          "calls": 1,
+          "seconds": 44.617326399999904,
+          "tokens": 7354,
+          "estimatedUsd": 0.057364
+        },
+        "builder": {
+          "calls": 1,
+          "seconds": 28.823245700000086,
+          "tokens": 5537,
+          "estimatedUsd": 0.038834
+        },
+        "team": {
+          "calls": 7,
+          "seconds": 247.8644941,
+          "tokens": 50415,
+          "estimatedUsd": 0.289646
+        },
+        "budgetSingle": {
+          "calls": 1,
+          "seconds": 44.617326399999904,
+          "tokens": 7354,
+          "estimatedUsd": 0.057364
+        },
+        "merge": {
+          "calls": 3,
+          "seconds": 90.76393059999997,
+          "tokens": 20054,
+          "estimatedUsd": 0.125476
+        }
+      },
+      "budgetControl": {
+        "cap": 0.289646,
+        "status": "Koltsegplafon; fel nem hasznalt keret"
+      },
+      "enhancedSelfReviewCalls": 0
+    }
+  ]
+}
